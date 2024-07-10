@@ -15,7 +15,10 @@
 .resume button{
     width: 228px;
     height: 58px;
+    font-size: 20px;
+    font-weight: 600;
 }
+
 
 .container1{
     width: 100%;
@@ -37,9 +40,8 @@
 
 .text{
     width: 998px;
-height: 212px;
-
-text-align: center;
+    height: 212px;
+    text-align: center;
 }
 .text h3{
     color: rgb(13, 19, 33);
@@ -62,7 +64,6 @@ text-align: center;
     border-radius: 8px;
     color: #ffffff;
     font-size: 20px;
-
     background: rgb(13, 19, 33);
 }
 
@@ -133,7 +134,7 @@ main{
 }
 .div2 button{
     width: 141px;
-   height: 47px;
+    height: 47px;
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
@@ -204,7 +205,7 @@ main{
 }
 .div4 img{
     width: 206.4px;
-   height: 187.32px;
+    height: 187.32px;
 }
 .div4 button{
     width: 141px;
@@ -391,6 +392,7 @@ main{
 .container5{
     width: 80%;
     height: 866px;
+    margin-bottom: 50px;
 
 }
 .div41{
@@ -438,7 +440,7 @@ main{
     width: 110px;
     height: 30px;
     font-size: 24px;
-   font-weight: 800;
+    font-weight: 800;
 }
 .div42 p{width: 801.22px;
     height: 42px;
@@ -476,7 +478,7 @@ main{
     width: 110px;
     height: 30px;
     font-size: 24px;
-   font-weight: 800;
+    font-weight: 800;
 }
 .div43 p{width: 741.22px;
     height: 42px;
@@ -539,15 +541,13 @@ main{
     align-items: center;
     text-align: center;
     background-image: url(assets/handshake.jpg);
-     background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
     padding: 45px 0;
-
     border-radius: 16px;
-
-background-color: rgba(0, 0, 0, 0.45);
-background-blend-mode:overlay;
+    background-color: rgba(0, 0, 0, 0.45);
+    background-blend-mode:overlay;
     
 }
 .div61 h3{
@@ -561,8 +561,8 @@ background-blend-mode:overlay;
 }
 .div61 p{
     font-size: 16px;
-   font-weight: 400;
-   color: rgb(255, 255, 255); 
+    font-weight: 400;
+    color: rgb(255, 255, 255); 
 
 }
 .div62{
@@ -572,14 +572,36 @@ background-blend-mode:overlay;
     width: 547px;
     height: 58px;
     border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 8px;
-background: rgb(255, 255, 255);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 }
 .div62-input2{width: 120px;
     height: 62px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    border: 1px solid rgba(13, 19, 33, 0.15)
-    
+    border: 1px solid rgba(13, 19, 33, 0.15);
+}
 
+
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: center;
+}
+.fcontainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.images{
+    width: 36.86px;
+height: 35.95px;
+}
+.icon1{
+    text-decoration: none;
 }
