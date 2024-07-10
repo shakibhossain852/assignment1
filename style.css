@@ -73,20 +73,19 @@ main{
 .container2{
     width: 80%;
     height: 1395px;
-    border: 1px solid red;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 50px;
     
-
 
 }
 .div1{
     width: 60%;
-    height: 52px;
+    height: 115px;
     text-align: center;
     margin-left:auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   
 }
 .div1 h3{
@@ -102,14 +101,14 @@ main{
 }
 .div2{
     width:66%;
-    height: 256px;
+    height: 306px;
     display: flex;
     justify-content: center;
     background-color: #ffffff;
     margin: 0px auto;
     border-radius: 16px;
     padding-top: 40px;
-    margin-bottom: 28px;
+    margin-bottom: 38px;
 }
 .div2 h3{
     width: 390px;
@@ -126,8 +125,8 @@ main{
     font-weight: 400;
 }
 .div2 img{
-    width: 206.4px;
-   height: 187.32px;
+    width: 223.2px;
+    height: 208.85px;
 }
 .div2 button{
     width: 141px;
@@ -139,7 +138,7 @@ main{
 
 .div3{
     width:66%;
-    height: 256px;
+    height: 306px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -147,6 +146,7 @@ main{
     margin: 0px auto;
     border-radius: 16px;
     padding-top: 40px;
+    margin-bottom: 38px;
 
 }
 .div3 h3{
@@ -165,21 +165,21 @@ main{
 }
 .div3 img{
     width: 206.4px;
-   height: 187.32px;
+    height: 187.32px;
 }
 .div3 button{
     width: 141px;
-   height: 47px;
+    height: 47px;
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
 }
 .div4{
     width:66%;
-    height: 256px;
+    height: 306px;
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
+    background-color:white;
     margin: 0px auto;
     border-radius: 16px;
     padding-top: 40px;
@@ -205,8 +205,144 @@ main{
 }
 .div4 button{
     width: 141px;
-   height: 47px;
+    height: 47px;
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+}
+
+.container3{
+    width: 80%;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.div21 h3{
+    width: auto;
+    height: 37px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+
+}
+.div21 p{
+    width: 740px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.container4{
+    width: 80%;
+    height: 460px;
+    
+
+}
+.div31{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.div31 h3{
+    width: 852px;
+    height: 37px;
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    padding: 0;
+}
+.div31 p{width: 740px;
+    height: 62px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+.div32{
+    
+    display: flex;
+    margin-left: 30px;
+    
+}
+.div321{
+    width: 384px;
+    height: 269px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-right: 15px;
+    
+
+}
+.div321 h3{color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 20px;
+
+}
+.div321 p{color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+
+}
+.div321 a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.div321 img{
+    width: 39.68px;
+   height: 45px;
+   margin-top: 40px;
+   margin-left: 20px;
+}
+.div322{
+    width: 384px;
+    height: 269px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-right: 15px;
+    
+}
+.div322 h3{color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 20px;
+
+}
+.div322 p{color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+
+}
+.div322 a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.div322 img{
+    width: 39.68px;
+   height: 45px;
+   margin-top: 40px;
+   margin-left: 20px;
+}
+.div323{
+    width: 384px;
+    height: 269px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    margin-left: 10px;
 }
